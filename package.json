@@ -2,7 +2,7 @@
   "name": "hackathon-project01",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -12,11 +12,11 @@
   "license": "ISC",
   "dependencies": {
     "@supabase/supabase-js": "^2.83.0",
-    "body-parser": "^2.2.0",
-    "dotenv": "^17.2.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2", 
     "node-fetch": "^2.7.0",
-    "@google/generative-ai": "^0.15.0", 
+        "@google/generative-ai": "^0.15.0", 
     "dialogflow-fulfillment": "^0.6.1"
   }
 }
