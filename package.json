@@ -16,10 +16,7 @@
     "dotenv": "^17.2.3",
     "express": "^4.19.2", 
     "node-fetch": "^2.7.0",
-    
-    // --- CRITICAL MISSING DEPENDENCIES FOR DIALOGFLOW/GEMINI ---
     "@google/generative-ai": "^0.15.0", 
     "dialogflow-fulfillment": "^0.6.1"
-    // If you are using @google-cloud/dialogflow (which your older code imported) you may need that too.
   }
 }
